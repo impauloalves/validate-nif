@@ -1,0 +1,39 @@
+{
+  "name": "validate-nif",
+  "version": "1.0.0",
+  "description": "A simple validator of Portuguese NIF - Número de Identificação Fiscal",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest"
+  },
+  "keywords": [
+    "nif",
+    "numero",
+    "identificação",
+    "fiscal",
+    "portugal"
+  ],
+  "author": "Paulo Alves",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impauloalves/validate-nif"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/impauloalves/validate-nif/issues"
+  },
+  "homepage": "https://github.com/impauloalves/validate-nif",
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "jest": "^28.0.3",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.6.4"
+  },
+  "files": ["lib/**/*"]
+}

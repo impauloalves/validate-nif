@@ -1,0 +1,1 @@
+# A simple validator of Portuguese NIF - Número de Identificação Fiscal

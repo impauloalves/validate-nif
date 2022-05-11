@@ -18,7 +18,7 @@ function getTotal(nif: string): number {
   );
 }
 
-export default function validateNIF(nif: string): boolean {
+export function validateNIF(nif: string): boolean {
   if (!isLengthValid(nif)) return false;
   if (!FIRST_DIGIT.includes(nif.substring(0, 1)) && !FIRST_TWO_DIGITS.includes(nif.substring(0, 2))) return false;
   const remainder11 = getTotal(nif) % 11;

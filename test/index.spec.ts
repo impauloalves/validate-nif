@@ -1,4 +1,4 @@
-import { validateNIF } from '../src/index';
+import validateNIF from '../src/index';
 
 describe('Tests the NIF - Numero de Identificação Fiscal', () => {
   test('Passes for a valid NIF', () => {

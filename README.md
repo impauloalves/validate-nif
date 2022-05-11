@@ -11,7 +11,7 @@ npm install validate-nif --save
 ## Usage
 
 ```js
-import validateNIF from 'validate-nif';
+import { validateNIF } from 'validate-nif';
 
 # returns true
 validateNIF('123456789');

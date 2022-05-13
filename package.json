@@ -1,6 +1,6 @@
 {
   "name": "validate-nif",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "A library to validate Portuguese fiscal number, NIF - Número de Identificação Fiscal.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
